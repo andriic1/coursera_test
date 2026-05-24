@@ -1,0 +1,148 @@
+body {
+  font-size: 16px;
+  color: #3d0000;
+  background-color: #36292e;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Document name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #503939;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ .navbar-brand {
+            padding-top: 30px;
+            height: 120px;
+        }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        padding-top: 20px;
+        height: 100px;
+    }
+    .menu-item-tile {
+        width: 250px;
+    }
+ 
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0; 
+  }
+  #menu-tile, #specials-tile {
+    width: 250px;
+    margin: 0 auto 15px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* Document name */
+    padding-top: 5px;
+    font-size: 1.5em;
+  }
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+  }
+
+  
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+ /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+
+ 
+}
+}
+   /* End Home page */
